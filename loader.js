@@ -12,3 +12,5 @@ export function loadLevel(name) {
     return fetch(`/${name}.json`)
     .then(r => r.json());
 }
+
+

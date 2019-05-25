@@ -29,7 +29,7 @@ export default class SpriteSheet {
 
     // Drawing an object
 
-    define(name, x, y, w, h) {
+    object(name, x, y, w, h) {
         const buffer = document.createElement('canvas');
         buffer.height = this.height;
         buffer.width = this.width;
@@ -39,8 +39,8 @@ export default class SpriteSheet {
                 this.image,
                 this.width * x,
                 this.height * y,
-                this.width,
-                this.height,
+                this.width * w,
+                this.height * h,
                 0,
                 0,
                 this.width,
