@@ -26,7 +26,7 @@ loadImage('images/tilesetFE.png')
     sprites.define("waterColumn", 21, 19);
     sprites.define("bridgeSideL", 3, 15);
     sprites.define("bridgeSideR", 4, 15);
-    sprites.object("gate", 28, 6, 1, 3);
+    sprites.object("gate", 28, 6, 5, 1);
 
 
     loadLevel('tiles')

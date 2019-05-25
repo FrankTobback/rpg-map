@@ -44,7 +44,7 @@ export default class SpriteSheet {
                 0,
                 0,
                 this.width,
-                this.height);
+                this.height,);
         this.tiles.set(name, buffer);
     }
 
