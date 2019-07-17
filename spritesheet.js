@@ -50,7 +50,7 @@ export default class SpriteSheet {
 
     draw(name, context, x, y) {
         const buffer = this.tiles.get(name);
-        context.drawImage(buffer, x, y);
+        context.getContext("2d").drawImage(buffer, x, y);
     }
 
     drawTile(name, context, x, y) {
